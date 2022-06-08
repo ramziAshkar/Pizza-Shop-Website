@@ -1,0 +1,173 @@
+:root{
+    --black: #ffc107;
+    --border: .1rem solid rgba(0,0,0,.1);
+    --border-hover: .1rem solid var(--black);
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    --red: rgb(122, 15, 15);
+}
+
+.main_img{
+    width: 100%;
+    height: 18cm;
+}
+
+#slideshow{
+    position: relative;
+}
+#left{
+    position: absolute;
+    bottom: 50%;
+    left: 0px;
+}
+#right{
+    bottom: 50%;
+    position: absolute;
+    right: 0px;
+}
+.button {
+    background-color: white;
+    color: rgb(122, 15, 15);
+    z-index: 2;
+    font-size: 1cm;
+}
+.reviews .reviews-slider .box{
+    border-color: white;
+    border-style: outset;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+    height: fit-content;
+}
+
+.reviews .reviews-slider .box:hover{
+    border: var(--border-hover);
+}
+
+.reviews .reviews-slider .box h3{
+    color: white;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+
+.reviews .reviews-slider .box p{
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    line-height: 2;
+    font-family:  "Trirong", serif;
+
+}
+
+.reviews .reviews-slider .box .stars i{
+    font-size: 2.5rem;
+    color: white;
+}
+.Reviews{
+  padding-top: 1rem;
+  text-align: center;
+
+}
+#heading{
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: .05rem white;
+
+}
+.reviews{
+  background-color: var(--red)
+}
+.addreview{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+#addreview{
+  background-color: white;
+  border: var(--red);
+  color: var(--red);
+  font-weight: bold;
+}
+#addreview:hover{
+    background-color: rgba(0,0,0,.1);
+    color: white;
+}
+.reviews-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,.9);
+    position: fixed;
+    top: 0; right: -100%;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+}
+
+.reviews-container.active{
+    right: 0;
+}
+
+.reviews-container form{
+    font-family: sans-serif, "Poppins";
+    background: #fff;
+    width: 450px;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #444;
+    border: 1px solid lightgrey;
+    box-shadow: 0 0 20px rgb(122, 15, 15, .3);
+}
+
+.reviews-container form h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(122, 15, 15);
+    font-weight: bold;
+}
+
+.reviews-container form span{
+    display: block;
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.reviews-container form .box{
+    width: 100%;
+    margin: 5px 0;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    border-bottom-width: 2.5px;
+    border-radius: 5px;
+    padding: 5px 9px;
+    outline: none;
+    color: #555;
+}
+.reviews-container form .box:valid{
+    border-color: rgb(122, 15, 15);
+}
+.reviews-container form .btn{
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+    background-color: rgb(122, 15, 15) ;
+    font-size: 19px;
+    border: none;
+    color: white;
+}
+.reviews-container form .btn:hover{
+    background-color: rgb(170, 20, 20) ;
+}
+.reviews-container #close-review-btn{
+    position: absolute;
+    top: 0; right: 2.5rem;
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+.reviews-container #close-review-btn:hover{
+    color: rgb(122, 15, 15);
+}

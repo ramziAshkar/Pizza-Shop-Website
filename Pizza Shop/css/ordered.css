@@ -1,0 +1,119 @@
+.ccontainer {
+	width: 100%;
+	height: auto;
+
+}
+.gallery-wrapper {
+	width: 100%;
+	max-width: 340px;
+	margin: 0 auto;
+	height: auto;
+}
+.gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+.gallery-item:not(:last-of-type) {
+	margin-bottom: 50px;
+}
+.title{
+    font-size:0.5cm;
+    text-transform: uppercase;
+    color: rgb(122, 15, 15);
+    font-family: 'Poppins', sans-serif;
+}
+span.quantity{
+    color: #219150;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+span.price{
+    color: #219150;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.txt{
+    font-size:0.35cm;
+    font-family:  "Trirong", serif;
+}
+.gallery-img {
+	width: 350px;
+    height: 300px;
+    border: 1px solid white;
+}
+.gallery-img:hover{
+    transform: scale(0.9);
+    transition: .4s;
+}
+.gallery-im-caption {
+  position: relative;
+	margin: 0;
+	padding: 8px;
+    width: 250px;
+    height: auto;
+    margin-left: 1.3cm;
+    color: rgb(122, 15, 15);
+    text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+	.gallery-wrapper {
+		max-width: 1240px;
+	}
+	.gallery {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.gallery-item {
+		padding: 10px;
+	}
+	.gallery-img {
+		min-width: 350px;
+		max-width: 350px;
+	}
+}
+.total{
+  color: #219150;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+ justify-content: center;
+}
+.info{
+  color: #219150;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+ justify-content: center;}
+
+#email{
+  margin-right: 1%;
+  font-size: 20px;
+}
+.final{
+  color: #219150;
+  font-weight: bold;
+  display: flex;
+ justify-content: center;
+}
+.order{
+  font-size: 15px;
+  width: 10%;
+  background-color: rgb(122, 15, 15);
+}
+
+.input{
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    margin-right: 2%;
+    border-color: rgb(122, 15, 15);
+
+}}

@@ -1,0 +1,200 @@
+.username{
+    color: white;
+    margin-left: 0.5cm;
+    font-size: 0.5cm;
+    text-decoration: underline;
+}
+.username:hover{
+
+    color: #ffc107;
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+html{
+    font-size: 82%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+section{
+    margin-bottom: 2rem;
+    padding:2rem 9%;
+}
+.nav_p{
+    font-family: 'Poppins', sans-serif;
+    font-stretch: expanded;
+    font-size: 0.55cm;
+    margin-left: 0.5cm;
+    margin-top: 0.5cm;
+    color: white;
+}
+.nav_p:hover{
+    color: #ffc107;
+    width: fit-content;
+}
+.nav_iteam{
+    margin: 0.25cm;
+}
+.ic{
+    color: white;
+    font-size: 28px;
+    margin-left: 0.4cm;
+}
+.ic:hover{
+    color: #ffc107;
+    transition: .15s;
+}
+#STORE_LOGO{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: .05rem #ffc107;
+    letter-spacing: .2rem;
+    text-align: center;
+    margin-bottom: 0.2cm;
+}
+html::-webkit-scrollbar{
+    width: 15px;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+    background: rgb(122, 15, 15);
+    border: 1px solid white;
+}
+
+.heading {
+    font-size: 9rem;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: .05rem rgb(122, 15, 15);
+    letter-spacing: .2rem;
+    text-align: center;
+    pointer-events: none;
+    position: relative;
+    margin-top: 50px;
+}
+.heading span {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: rgb(122, 15, 15);
+    font-size: 3rem;
+
+}
+
+@media(max-width: 768px) {
+    .heading{
+        font-size: 6rem;
+    }
+    .heading span{
+        font-size: 2rem;
+    }
+}
+.para{
+    color: rgb(122, 15, 15);
+    font-family:  "Trirong", serif;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+#footer {
+    padding: 0 0 30px 0;
+}
+#footer .footer-top {
+    background: #333;
+    border: 1px solid rgb(122, 15, 15);
+    padding: 60px 0 30px 0;
+    color: white;
+}
+#footer .footer-top .footer-info {
+    margin-bottom: 30px;
+}
+#footer .footer-top .social-links a {
+    font-size: 22px;
+    display: inline-block;
+    background: white;
+    color: rgb(122, 15, 15);
+    line-height: 1;
+    padding: 10px;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.2s;
+}
+#footer .footer-top .social-links a:hover {
+    background: #ffc107;
+    color: rgb(122, 15, 15);
+    text-decoration: none;
+}
+#footer .footer-top h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffc107;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px
+}
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #ffc107;
+    font-size: 16px;
+    line-height: 1
+}
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0
+}
+#footer .footer-top .footer-links ul a {
+    color: #fff;
+    transition: 0.15s;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-top: -4px;
+}
+#footer .footer-top .footer-links ul a:hover {
+    margin-left: 17px;
+    color: #ffc107;
+}
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact p {
+    line-height: 26px;
+    font-size: 16px;
+    color: #fff;
+}
+#footer .footer-top .footer-contact span{
+    color: #ffc107;
+    font-size: 17px;
+    font-weight: bold;
+}
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(122, 15, 15);
+}
